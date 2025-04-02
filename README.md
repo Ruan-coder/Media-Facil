@@ -28,15 +28,7 @@ cd media-facil
 npm install
 ```
 
-### 3. Configure as variáveis de ambiente
-Crie um arquivo `.env.local` e adicione as credenciais necessárias:
-```env
-NEXT_PUBLIC_API_URL=http://localhost:5000
-DATABASE_URL=mongodb+srv://usuario:senha@cluster.mongodb.net/mediafacil
-JWT_SECRET=sua_chave_secreta
-```
-
-### 4. Inicie o servidor de desenvolvimento
+### 3. Inicie o servidor de desenvolvimento
 ```sh
 npm run dev
 ```
